@@ -1,0 +1,77 @@
+/*halaman 12, nav ambil di style halaman 4*/
+/*style for the first level menu bar*/
+ul#menu1{
+padding:0;
+border-top: 1px solid #b8babc;
+}
+ul#menu1 > li{
+list-style-type:none;
+position:relative;
+text-align: left;
+background:#fff;
+color:#808284;
+border-bottom: 1px solid #b8babc;
+}
+ul#menu1 > li:hover{
+background:#e01d2a;
+color:#fff;
+	}
+ul#menu1 li > label{
+position:relative;
+display:block;
+padding-left: 30px;
+line-height:3em;
+transition:background 0.6s;
+cursor:pointer;
+font-family: Roboto Slab;
+font-size: 16px;
+}
+label:after{
+content:"";
+position:absolute;
+display:block;
+top:50%;
+right:5px;
+width:0;
+height:0;
+border-top:4px solid rgba(255,255,255,.5);
+border-bottom:0 solid rgba(255,255,255,.5);
+border-left:4px solid transparent;
+border-right:4px solid transparent;
+transition:border-bottom .1s, border-top .1s .1s;
+}
+label:hover,
+input:checked ~ label{
+background:#e01d2a;
+color:#fff;
+}
+/*show the second level menu*/
+input:checked ~ ul.submenu{
+max-height:300px;
+transition:max-height 0.5s ease-in;
+}
+/*style for the second level menu*/
+ul.submenu{
+max-height:0;
+transition:max-height 0.5s ease-out;
+padding:0;
+overflow:hidden;
+list-style-type:none;
+background:#fff;
+position:relative;
+min-width:100%;
+}
+ul.submenu li a{
+display:block;
+padding:12px 0 12px 50px;
+color:#808284;
+text-decoration:none;
+border-top: 1px solid #b8babc;
+transition:background .3s;
+white-space:nowrap;
+font-family: Roboto Slab;
+font-size: 14px;
+}
+ul.submenu li a:hover{
+background:#edeff2;
+}

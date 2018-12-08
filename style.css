@@ -1,0 +1,758 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------------------------------------------Desktop Styles */
+@media only screen and (min-width: 961px) {
+	body {
+    background-color: #B2D6FF;
+  	}
+  	.wrapper{
+  	width: 100%;
+  	text-align: center;
+  	}
+  	.btn{
+	font-family: Roboto Slab;
+	font-size: 20px;
+	background-color: #e01d2a;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    width: 90%;
+	}
+  	/*halaman 1*/
+  	.website-name{	
+	font-family: Arial;
+	color: #e01d2a;
+	font-size: 75px;
+	display: block;
+	margin-top: 20%;
+	}
+	/*halaman 2*/
+	.no-nav{
+		margin-top: 0 !important;
+	}
+	.get-started1, .get-started2{
+	display: inline-block;
+	}
+	.get-started1{
+	width: 100%;
+	height: 420px;
+	padding: 50px 0;
+	background-color: #f2f4f7;
+	}
+	.get-started1 .pagination{
+	background-image: url('images/pagination.png');
+    width: 40px;
+    height: 40px;
+    position: absolute;
+	right: 48.5%;
+	top: 5%;
+	}
+	.get-started2{
+	margin-top: -4px;
+	width: 100%;
+	padding: 30px 0;
+	background-color: #fff;
+	}
+	.get-started2 .title{
+	font-family: Roboto Slab;
+	font-size: 24px;
+	text-align: center;
+	color: #808284;
+	padding-bottom: 10px;
+	}
+	.get-started2 .description{
+	font-family: Roboto Slab;
+	font-size: 20px;
+	text-align: center;
+	color: #a1a4a8;
+	margin-left: 80px;
+	margin-right: 80px;
+	padding-bottom: 20px;
+	}
+	/*halaman 3*/
+	.login-website-name{
+	font-family: Arial;
+	color: #e01d2a;
+	font-size: 75px;
+	display: block;
+	margin-top: 100px;
+	margin-bottom: 70px;
+	}
+	.container{
+	text-align: center;
+	margin-top: 150px;
+	}
+	.form{
+	width: 400px;
+	display: inline-block;
+	}
+	.form-text{
+	width: 100%;
+	height: 42px;
+	margin: 0;
+	padding: 0 10px;
+	color: #231f20;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-family: Roboto Slab;
+	font-size: 16px;
+	margin-bottom: 8px;
+	}
+	.form-info1{
+	display: block;
+	text-decoration: none;
+	font-family: Roboto Slab;
+	font-size: 24px;
+	text-align: center;
+	color: #808284;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	}
+	.form-info2{
+	display: block;
+	text-decoration: none;
+	font-family: Roboto Slab;
+	font-size: 24px;
+	text-align: center;
+	color: #808284;
+	}
+	/*halaman 4*/
+	.nav{
+	position: fixed;
+	background-color: #ffffff;
+	width: 100%;
+    top: 0%;
+	right: 0%;
+	display: block;
+	padding: 40px 100px 15px 100px;
+	margin-bottom: 80px;
+    text-align: center;
+    z-index: 2;
+	}
+	.nav .nav-text{
+	color: #808284;
+	text-decoration: none;
+    display:inline-block;
+    font-family: Roboto Slab;
+    font-size: 26px;
+	}
+	.nav .arrow-back{
+	display: inline-block;
+	background-image: url('images/arrow-back.png');
+    width: 10px;
+    height: 20px;
+    position: fixed;
+    left: 29%;
+	top: 7.5%;
+	}
+	/*halaman 5*/
+	.nav .menu-list{
+	display: inline-block;
+	background-image: url('images/menu-list.png');
+    width: 32px;
+    height: 20px;
+    position: fixed;
+    left: 22%;
+	top: 8%;
+	}
+	.nav .shopping-cart{
+	background-image: url('images/shopping-cart.png');
+    width: 33px;
+    height: 30px;
+    position: fixed;
+    right: 22%;
+	top: 7%;
+	}
+	.product{
+	width: 80%;
+	margin-bottom:40px;
+	display: inline-block;
+	background-color: #f2f4f7;
+	box-shadow: 2px 3px 3px #b8babc;
+	}
+	.product .product-detail,
+	.product-full .product-detail,
+	.product-two .product-detail,
+	.product-half .product-detail,
+	.product-details-slider .product-detail{
+	background-color: #fff;
+	}
+	.product .product-img{
+    padding-top: 10%;
+    padding-bottom: 15%;
+	}
+	.product .product-img > img{
+    width: 20%;
+	}
+	.product-detail .name, .product-detail .price{
+	text-align: left;
+	}
+	.product-detail .name{
+	padding: 10px 0 5px 20px;
+	font-family: Roboto Slab;
+	font-size: 20px;
+	color: #808284;
+	}
+	.product-detail .price{
+	padding-bottom: 10px;
+	padding-left: 20px;
+	font-family: Roboto Slab;
+	font-size: 18px;
+	color: #808284;
+	}
+	/*halaman 6, style halaman 6 yang lain mengikuti style halaman 5*/
+	.product-full{
+	width: 80%;
+	margin-bottom:40px;
+	display: inline-block;
+	background-color: #f2f4f7;
+	box-shadow: 2px 3px 3px #b8babc;
+	}
+	.product-full .product-img{
+    display: block;
+    padding-top: 50%;
+    padding-bottom: 50%;
+	}
+	.product-full .product-img > img{
+    width: 20%;
+	}
+	/*halaman 7, style halaman 7 yang lain mengikuti style halaman 5*/
+	.product-slider{
+	width: 100%;
+	margin-bottom:40px;
+	display: inline-block;
+	background-color: #f2f4f7;
+	box-shadow: 2px 3px 3px #b8babc;
+	}
+	.product-slider .product-img{
+    display: block;
+    padding-top: 15%;
+    padding-bottom: 10%;
+	}
+	.product-slider .product-img > img{
+	width: 16%;
+	}
+	.product-slider .pagination{
+	display: block;
+	background-image: url('images/pagination.png');
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+	}
+	.product-two{
+	width: 40%;
+	margin-bottom:40px;
+	display: inline-block;
+	background-color: #f2f4f7;
+	box-shadow: 2px 3px 3px #b8babc;
+	}
+	.product-two:nth-child(odd){
+	margin-right: 30px;
+	}
+	.product-two .product-img{
+	padding: 35% 0;
+    }
+	.product-two .product-img > img{
+	width: 40%;
+	}
+	/*halaman 8, style halaman 8 mengikuti style halaman 7(product-two)*/
+	/*halaman 9 besok
+	/*halaman 10, nav ambil di style halaman 4, product-detail ambil di style halaman 5*/
+	.product-half{
+	width: 80%;
+	margin-bottom:40px;
+	display: inline-block;
+	background-color: #fff;
+	box-shadow: 2px 3px 3px #b8babc;
+	}
+	.product-half .product-img{
+	float: left;
+    width: 50%;
+
+    }
+	.product-half .product-img > img{
+	width: 100%;
+	}
+	.product-half .product-detail{
+    float: left;
+    width: 50%;
+    padding: 50px 40px;
+	}
+	.product-half .product-detail .remove{
+	text-align: left;
+	font-family: Roboto Slab;
+	font-size: 18px;
+	color: #808284;
+	}
+	.product-half .product-detail .name{
+	padding: 0 0 5px 0;
+	}
+	.product-half .product-detail .price{
+	padding: 0 0 40px 0;
+	}
+	/*halaman 11, sebagian ikut style halaman 5*/
+	#grey{
+	background-color: #f2f4f7 !important;
+	}
+	#grey .arrow-back{
+	display: inline-block;
+	background-image: url('images/arrow-back2.png');
+    width: 10px;
+    height: 20px;
+    position: fixed;
+    left: 22%;
+	top: 7.5%;
+	}
+	#grey .shopping-cart{
+	background-image: url('images/shopping-cart2.png');
+    width: 33px;
+    height: 30px;
+    position: fixed;
+    right: 22%;
+	top: 7%;
+	}
+	.product-details-slider{
+	width: 100%;
+	margin-bottom: 40px;
+	display: inline-block;
+	background-color: #f2f4f7;
+	box-shadow: 2px 3px 3px #b8babc;
+	}
+	.product-details-slider .product-img{
+    display: block;
+    padding-top: 15%;
+    padding-bottom: 10%;
+	}
+	.product-details-slider .product-img > img{
+	width: 16%;
+	}
+	.product-details-slider .pagination{
+	display: block;
+	background-image: url('images/pagination.png');
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+	}
+	.product-details-slider .product-detail{
+    width: 100%;
+    }
+	.product-details-slider .product-detail .description{
+	text-align: left;
+	font-family: Roboto Slab;
+	font-size: 16px;
+	color: #808284;
+	padding: 0 20px;
+	}
+}
+
+
+
+
+
+/* ---------------------------------------------Tablet Styles */
+/*@media only screen and (min-width: 401px) and (max-width: 960px) {*/
+@media only screen and (min-width: 201px) and (max-width: 960px) {
+  body {
+    background-color: #f5cf8e;
+  	}
+  	.wrapper{
+  	width: 100%;
+  	text-align: center;
+  	}
+  	.btn{
+	font-family: Roboto Slab;
+	font-size: 14px;
+	background-color: #e01d2a;
+    border: none;
+    color: white;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 85%;
+    text-transform: uppercase;
+	}
+  	/*halaman 1*/
+  	.website-name{	
+	font-family: Arial;
+	color: #e01d2a;
+	font-size: 75px;
+	display: block;
+	margin-top: 30%;
+	}
+	/*halaman 2*/
+	.no-nav{
+		margin-top: 0 !important;
+	}
+	.get-started1, .get-started2{
+	display: inline-block;
+	}
+	.get-started1{
+	width: 100%;
+	height: 420px;
+	padding: 50px 0;
+	background-color: #f2f4f7;
+	}
+	.get-started1 .pagination{
+	background-image: url('images/pagination.png');
+    width: 40px;
+    height: 40px;
+    position: absolute;
+	right: 48.5%;
+	top: 5%;
+	}
+	.get-started2{
+	margin-top: -4px;
+	width: 100%;
+	padding: 30px 0;
+	background-color: #fff;
+	}
+	.get-started2 .title{
+	font-family: Roboto Slab;
+	font-size: 20px;
+	text-align: center;
+	color: #808284;
+	padding-bottom: 10px;
+	}
+	.get-started2 .description{
+	font-family: Roboto Slab;
+	font-size: 16px;
+	text-align: center;
+	color: #a1a4a8;
+	margin-left: 80px;
+	margin-right: 80px;
+	padding-bottom: 20px;
+	}
+	/*halaman 3*/
+	.login-website-name{
+	font-family: Arial;
+	color: #e01d2a;
+	font-size: 75px;
+	display: block;
+	margin-top: 100px;
+	margin-bottom: 70px;
+	}
+	.container{
+	text-align: center;
+	margin-top: 150px;
+	}
+	.form{
+	width: 400px;
+	display: inline-block;
+	}
+	.form-text{
+	width: 100%;
+	height: 42px;
+	margin: 0;
+	padding: 0 10px;
+	color: #231f20;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-family: Roboto Slab;
+	font-size: 16px;
+	margin-bottom: 8px;
+	}
+	.form-info1{
+	display: block;
+	text-decoration: none;
+	font-family: Roboto Slab;
+	font-size: 16px;
+	text-align: center;
+	color: #808284;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	}
+	.form-info2{
+	display: block;
+	text-decoration: none;
+	font-family: Roboto Slab;
+	font-size: 16px;
+	text-align: center;
+	color: #808284;
+	}
+	/*halaman 4*/
+	.nav{
+	position: fixed;
+	background-color: #ffffff;
+	width: 100%;
+    top: 0%;
+	right: 0%;
+	display: block;
+	padding: 40px 100px 15px 100px;
+	margin-bottom: 80px;
+    text-align: center;
+    z-index: 2;
+	}
+	.nav .nav-text{
+	color: #808284;
+	text-decoration: none;
+    display:inline-block;
+    font-family: Roboto Slab;
+    font-size: 26px;
+	}
+	.nav .arrow-back{
+	display: inline-block;
+	background-image: url('images/arrow-back.png');
+    width: 10px;
+    height: 20px;
+    position: fixed;
+    left: 2%;
+	top: 7.5%;
+	}
+	/*halaman 5*/
+	.nav .menu-list{
+	display: inline-block;
+	background-image: url('images/menu-list.png');
+    width: 32px;
+    height: 20px;
+    position: fixed;
+    left: 22%;
+	top: 8%;
+	}
+	.nav .shopping-cart{
+	background-image: url('images/shopping-cart.png');
+    width: 33px;
+    height: 30px;
+    position: fixed;
+    right: 22%;
+	top: 7%;
+	}
+	.product{
+	width: 80%;
+	margin-bottom:40px;
+	display: inline-block;
+	background-color: #f2f4f7;
+	box-shadow: 2px 3px 3px #b8babc;
+	}
+	.product .product-detail,
+	.product-full .product-detail,
+	.product-two .product-detail,
+	.product-half .product-detail,
+	.product-details-slider .product-detail{
+	background-color: #fff;
+	}
+	.product .product-img{
+    padding-top: 10%;
+    padding-bottom: 15%;
+	}
+	.product .product-img > img{
+    width: 20%;
+	}
+	.product-detail .name, .product-detail .price{
+	text-align: left;
+	}
+	.product-detail .name{
+	padding: 10px 0 5px 20px;
+	font-family: Roboto Slab;
+	font-size: 14px;
+	color: #808284;
+	}
+	.product-detail .price{
+	padding-bottom: 10px;
+	padding-left: 20px;
+	font-family: Roboto Slab;
+	font-size: 12px;
+	color: #808284;
+	}
+	/*halaman 6, style halaman 6 yang lain mengikuti style halaman 5*/
+	.product-full{
+	width: 80%;
+	margin-bottom:40px;
+	display: inline-block;
+	background-color: #f2f4f7;
+	box-shadow: 2px 3px 3px #b8babc;
+	}
+	.product-full .product-img{
+    display: block;
+    padding-top: 50%;
+    padding-bottom: 50%;
+	}
+	.product-full .product-img > img{
+    width: 20%;
+	}
+	/*halaman 7, style halaman 7 yang lain mengikuti style halaman 5*/
+	.product-slider{
+	width: 100%;
+	margin-bottom:40px;
+	display: inline-block;
+	background-color: #f2f4f7;
+	box-shadow: 2px 3px 3px #b8babc;
+	}
+	.product-slider .product-img{
+    display: block;
+    padding-top: 15%;
+    padding-bottom: 10%;
+	}
+	.product-slider .product-img > img{
+	width: 16%;
+	}
+	.product-slider .pagination{
+	display: block;
+	background-image: url('images/pagination.png');
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+	}
+	.product-two{
+	width: 40%;
+	margin-bottom:40px;
+	display: inline-block;
+	background-color: #f2f4f7;
+	box-shadow: 2px 3px 3px #b8babc;
+	}
+	.product-two:nth-child(odd){
+	margin-right: 30px;
+	}
+	.product-two .product-img{
+	padding: 35% 0;
+    }
+	.product-two .product-img > img{
+	width: 40%;
+	}
+	.product-two .product-detail .name{
+	font-size: 12px;
+	}
+	.product-two .product-detail .price{
+	font-size: 10px;
+	}
+	/*halaman 8, style halaman 8 mengikuti style halaman 7(product-two)*/
+	/*halaman 9 besok*/
+	/*halaman 10, nav ambil di style halaman 4, product-detail ambil di style halaman 5*/
+	.product-half{
+	width: 80%;
+	margin-bottom:40px;
+	display: inline-block;
+	background-color: #fff;
+	box-shadow: 2px 3px 3px #b8babc;
+	}
+	.product-half .product-img{
+	float: left;
+    width: 50%;
+    }
+	.product-half .product-img > img{
+	width: 100%;
+	}
+	.product-half .product-detail{
+    float: left;
+    width: 50%;
+    padding: 5px 20px;
+	}
+	.product-half .product-detail .remove{
+	text-align: left;
+	font-family: Roboto Slab;
+	font-size: 12px;
+	color: #808284;
+	}
+	.product-half .product-detail .name{
+	padding: 0 0 5px 0;
+	font-size: 12px;
+	}
+	.product-half .product-detail .price{
+	padding: 0 0 20px 0;
+	font-size: 10px;
+	}
+	/*halaman 11, sebagian ikut style halaman 5*/
+	#grey{
+	background-color: #f2f4f7 !important;
+	}
+	#grey .arrow-back{
+	display: inline-block;
+	background-image: url('images/arrow-back2.png');
+    width: 10px;
+    height: 20px;
+    position: fixed;
+    left: 22%;
+	top: 7.5%;
+	}
+	#grey .shopping-cart{
+	background-image: url('images/shopping-cart2.png');
+    width: 33px;
+    height: 30px;
+    position: fixed;
+    right: 22%;
+	top: 7%;
+	}
+	.product-details-slider{
+	width: 100%;
+	margin-bottom: 40px;
+	display: inline-block;
+	background-color: #f2f4f7;
+	box-shadow: 2px 3px 3px #b8babc;
+	}
+	.product-details-slider .product-img{
+    display: block;
+    padding-top: 15%;
+    padding-bottom: 10%;
+	}
+	.product-details-slider .product-img > img{
+	width: 16%;
+	}
+	.product-details-slider .pagination{
+	display: block;
+	background-image: url('images/pagination.png');
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+	}
+	.product-details-slider .product-detail{
+    width: 100%;
+    margin-top:20px;
+    }
+	.product-details-slider .product-detail .description{
+	text-align: left;
+	font-family: Roboto Slab;
+	font-size: 12px;
+	color: #808284;
+	padding: 0 20px;
+	}
+}
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+	/*halaman 1*/
+  	.website-name{	
+	font-family: Arial;
+	color: #e01d2a;
+	font-size: 75px;
+	display: block;
+	margin-top: 60%;
+	}
+	/*halaman 3*/
+	body{
+	background: #8ced5c;
+	}
+	.form{
+	width: 90%;
+	display: inline-block;
+	}
+	.form-text{
+	width: 100%;
+	height: 42px;
+	margin: 0;
+	padding: 0 10px;
+	color: #231f20;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-family: Roboto Slab;
+	font-size: 16px;
+	margin-bottom: 8px;
+	}
+	/*halaman 4*/
+	.nav .arrow-back{
+    left: 5%;
+}
